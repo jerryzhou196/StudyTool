@@ -18,7 +18,7 @@ title: JERRYSTUDY
 description: >- # this means to ignore newlines until "baseurl:"
   Studying. Made Easy. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jerryzhou196.github.io/StudyTool/" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
