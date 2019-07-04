@@ -1,0 +1,48 @@
+.container {
+display: flex;
+justify-content: center ;
+align-items: center;
+}
+.container-2{
+flex-direction: column;
+display: flex;
+}
+.button-c{
+display:flex;
+justify-content:row;
+text-align: center;
+}
+.inputgang{
+display: flex;
+flex-direction: column;
+}
+#search {
+resize: none;
+white-space: nowrap;
+}
+#submit-btn{
+width: 100%;
+width: -moz-available;          /* WebKit-based browsers will ignore this. */
+width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+margin-bottom: 1.5em;
+}
+.navbar-brand{
+color: #30B0D5 !important ;
+font-weight: bold;
+}
+#toolbox{
+color: #30B0D5;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+#em{
+display: none;
+}
+.study-i{
+margin: 20px;
+}
+#header{
+text-align: center;
+}
