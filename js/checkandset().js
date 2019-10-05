@@ -1,5 +1,16 @@
 function Check() {
     var pb = document.getElementById("progress-bar")
+    if (correct > 1){
+    document.getElementById("study-1").setAttribute('placeholder', "") 
+    document.getElementById("study-2").setAttribute('placeholder', "")
+    document.getElementById("study-3").setAttribute('placeholder', "")
+    }
+    else {
+    document.getElementById("study-1").setAttribute('placeholder', IntialObject.Q1) 
+    document.getElementById("study-2").setAttribute('placeholder', IntialObject.Q2)
+    document.getElementById("study-3").setAttribute('placeholder', IntialObject.Q3)
+
+    }
     
     if (correct == 9) {
     document.getElementById("study-1").value = "";
