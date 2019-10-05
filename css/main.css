@@ -8,7 +8,6 @@ flex-direction: column;
 display: flex;
 }
 .button-c{
-display:flex;
 justify-content:row;
 text-align: center;
 }
@@ -46,3 +45,4 @@ margin: 20px;
 #header{
 text-align: center;
 }
+
